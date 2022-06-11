@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    border: 1.5px solid #b38bff;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.campos-formulario {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    padding: 1rem;
+    color: #4169E1;
+}
+
+.campos-formulario input {
+    border-radius: 0.5rem;
+    border: 1px solid #b38bff;
+    height: 1.8rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    margin: 0.2rem 0 1.2rem 0;
+}
+
+figure, figcaption {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    color: #4169E1;
+}
+
+.setup-formulario {
+    display: flex;
+    justify-content: center;
+}
+
+.setup-formulario a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #4169E1;
+    border-radius: 0.5rem;
+    width: 8rem;
+    height: 2.5rem;
+    color: #FFF;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.setup-formulario a:hover {
+    cursor: pointer;
+    background-color: #b38bff;
+}
+
+.credenciais {
+    display: flex;
+    flex-direction: column;
+    color: #4169E1;
+    font-size: 14px;
+}
+
+.credenciais-item {
+    margin-bottom: 0.5rem;
+}
+
+.credenciais-item span {
+    font-weight: 700;
+    padding: 0.5rem;
+}

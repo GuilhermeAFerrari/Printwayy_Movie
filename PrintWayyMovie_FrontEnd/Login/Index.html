@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/toastr.min.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie - Login</title>
+</head>
+<body>
+    <form>
+        <figure>
+            <img src="../assets/img/index-popcorn.gif" alig width="30%" alt="Logotipo-Printwayy-Movie">
+        </figure>
+        <figcaption>Printwayy Movie</figcaption>
+        <div class="campos-formulario">
+            <lable for="usuario">E-mail:</lable>
+            <input type="email" id="email">
+            <lable for="usuario">Senha:</lable>
+            <input type="password" id="senha">
+        </div>
+        <div class="setup-formulario">
+            <a onclick="loadAllUsuarios()">Logar</a>
+        </div>
+        <hr>
+        <div class="credenciais">
+            <div class="credenciais-item">
+                <div class="credenciais-item-titulo">
+                    Acesso a todas operações:
+                </div>
+                <div class="credenciais-item-corpo">
+                    <strong>E-mail: </strong>gerente@printwayy.com<br />
+                    <strong>Senha: </strong>gerente
+                </div>
+            </div>
+            <div class="credenciais-item">
+                <div class="credenciais-item-titulo">
+                    Acesso apenas a visualização:
+                </div>
+                <div class="credenciais-item-corpo">
+                    <strong>E-mail: </strong>user@printwayy.com<br />
+                    <strong>Senha: </strong>user
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!-- JS -->
+    <script src="./Index.js"></script>
+    <script src="../assets/js/axios.js"></script>
+    <script src="../assets/js/jquery-3.6.0.js"></script>
+    <script src="../assets/js/toastr.min.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/toastr.min.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie - Sessões</title>
+</head>
+<body onload="loadFilmesSalas()">
+    <nav class="menu-superior">
+        <ul>
+          <li>PrintWayy Movie</li>
+          <li onclick="sair()"><img src="../assets/img/exit.svg" alt="Sair-do-sistema">&nbsp;Sair</li>
+        </ul>
+    </nav>
+
+    <section id="content-add-edit">
+        <small>* Necessário preencher todos os campos</small>
+        <div class="group-item">
+            <div class="item">
+                <label for="data">Data:</label>
+                <input type="date" id="data">
+            </div>
+            <div class="item-short">
+                <label for="horaInicio">Hr. Início:</label>
+                <input type="time" id="horaInicio">
+            </div>
+            <div class="item-short">
+                <label for="horaFim">Hr. Fim:</label>
+                <small>Será calculada pelo sistema</small>
+            </div>
+            <div class="item">
+                <label for="valor">Valor:</label>
+                <input type="number" id="valor">
+            </div>
+            <div class="item-short">
+                <label for="animacao">Animação:</label>
+                <select id="animacao">
+                    <option value="2D">2D</option>
+                    <option value="3D">3D</option>
+                </select>
+            </div>
+            <div class="item-short">
+                <label for="audio">Áudio:</label>
+                <select id="audio">
+                    <option value="Original">Orignial</option>
+                    <option value="Dublado">Dublado</option>
+                </select>
+            </div>
+            <div class="item">
+                <label for="filme">Filme:</label>
+                <select id="filme">
+                </select>
+            </div>
+            <div class="item">
+                <label for="sala">Sala:</label>
+                <select id="sala">
+                </select>
+            </div>
+        </div>
+        <section id="botoes-selecao">
+            <a class="button-voltar" href="./Index.html">Voltar</a>
+            <a class="button-salvar" onclick="adicionarSessao()">Salvar</a>
+        </section>
+    </section>
+    
+    <!-- JS -->
+    <script src="./Index.js"></script>
+    <script src="../assets/js/axios.js"></script>
+    <script src="../assets/js/jquery-3.6.0.js"></script>
+    <script src="../assets/js/toastr.min.js"></script>
+
+</body>
+</html>

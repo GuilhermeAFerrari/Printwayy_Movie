@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/toastr.min.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie - Filmes</title>
+</head>
+<body onload="getParams()">
+    <nav class="menu-superior">
+        <ul>
+          <li>PrintWayy Movie</li>
+          <li onclick="sair()"><img src="../assets/img/exit.svg" alt="Sair-do-sistema">&nbsp;Sair</li>
+        </ul>
+    </nav>
+
+    <section id="content-add-edit">
+        <small>* Necessário preencher todos os campos</small>
+        <div class="group-item">
+            <div class="item">
+                <label for="imagem">Imagem:</label>
+                <input type="file" id="imagem">
+            </div>
+            <div class="item">
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo">
+            </div>
+            <div class="item">
+                <label for="descricao">Descrição:</label>
+                <input type="text" id="descricao">
+            </div>
+            <div class="item">
+                <label for="duracao">Duração:</label><small>Em minutos</small>
+                <input type="number" id="duracao">
+            </div>
+        </div>
+        <section id="botoes-selecao">
+            <a class="button-voltar" id="buttonAddEdit" href="./Index.html">Voltar</a>
+            <a id="button-salvar" class="button-salvar" onclick="adicionarFilme()">Salvar</a>
+        </section>
+    </section>
+    
+    <!-- JS -->
+    <script src="./Index.js"></script>
+    <script src="../assets/js/axios.js"></script>
+    <script src="../assets/js/jquery-3.6.0.js"></script>
+    <script src="../assets/js/toastr.min.js"></script>
+
+</body>
+</html>

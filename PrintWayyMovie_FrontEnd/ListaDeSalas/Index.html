@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie - Salas</title>
+</head>
+<body onload="loadAllSalas()">
+    <nav class="menu-superior">
+        <ul>
+          <li>PrintWayy Movie</li>
+          <li onclick="sair()"><img src="../assets/img/exit.svg" alt="Sair-do-sistema">&nbsp;Sair</li>
+        </ul>
+    </nav>
+    <section id="menu-dados">
+        <nav>
+            <ul>
+              <li><img src="../assets/img/user.svg" alt="Logotipo-Usuario"><div id="typeUser">USER</div></li>
+              <li><img src="../assets/img/sala.svg" alt="Logotipo-salas"><span>Salas</span></li>
+              <a href="../GerenciamentoDeFilmes/Index.html"><li><img src="../assets/img/filme.svg" alt="Logotipo-filmes">Filmes</li></a>
+              <a href="../ListaDeSessoes/Index.html"><li><img src="../assets/img/sessao.svg" alt="Logotipo-sessoes">Sessões</li></a>
+            </ul>
+        </nav>
+        <div class="dados-tabela">
+            <nav class="menu-inferior">
+                <label><img src="../assets/img/arrow-menu.svg" alt="Sair-do-sistema">&nbsp;&nbsp;&nbsp;Salas</label>
+            </nav>
+            <table>
+                <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Quantidade de Assentos</th>
+                </tr>
+                </thead>
+                <tbody id="bodyTable">
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- JS -->
+    <script src="./Index.js"></script>
+    <script src="../assets/js/loader.js"></script>
+    <script src="../assets/js/axios.js"></script>
+    
+</body>
+</html>

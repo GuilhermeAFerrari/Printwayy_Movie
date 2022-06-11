@@ -1,0 +1,218 @@
+.menu-superior ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 4rem;
+    background-color: #5fa2d8;
+    color: #FFF;
+    box-shadow: 0px 5px 5px gray;
+    margin-bottom: 0.5rem;
+    padding: 0 2rem 0 2rem;
+    font-size: 1.2rem;
+}
+
+.menu-superior ul li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu-inferior {
+    font-size: 18px;
+    height: 3rem;
+    font-weight: 700;
+}
+
+.menu-inferior label{
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    width: 10rem;
+    height: 2rem;
+    background-color: #4169E1;
+    border: none;
+    color: #FFF;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+    .button:hover {
+        background-color: #FFF;
+        color: #4169E1;
+        border: 1px solid #4169E1;
+        cursor: pointer;
+    }
+
+.button-salvar {
+    width: 10rem;
+    height: 2rem;
+    background-color: #228b22;
+    border: none;
+    color: #FFF;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+    .button-salvar:hover {
+        background-color: #32cd32;
+        color: #FFF;
+        cursor: pointer;
+    }
+
+.button-voltar {
+    width: 10rem;
+    height: 2rem;
+    background-color: #ff7b5a;
+    border: none;
+    color: #FFF;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+    .button-voltar:hover {
+        background-color: #ff9e81;
+        color: #FFF;
+        cursor: pointer;
+    }
+
+#menu-dados {
+    display: flex;
+    color: #4169E1;
+    padding: 1rem;
+}
+
+#menu-dados nav{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: space-between;
+    border-right-color: #5fa2d8;
+}
+
+#menu-dados nav ul{
+    display: flex;
+    flex-direction: column;
+}
+
+#menu-dados nav ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+#menu-dados nav ul li img{
+    margin-right: 1.4rem;
+}
+
+#menu-dados span {
+    text-decoration: underline;
+}
+
+.dados-tabela {
+    display: flex;
+    flex-direction: column;
+}
+
+.dados-tabela table {
+    background-color: #f3f3f3;
+    width: 82vw;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+table {
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #5fa2d8;
+    line-height: 2rem;
+}
+
+td img {
+    cursor: pointer;
+}
+
+/*#region Estilização ViewAddEdit*/
+#content-add-edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80%;
+    width: 40vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid #4169E1;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.item-short {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.item input, .item-short input, .item select, .item-short select {
+    border-radius: 0.5rem;
+    border: 1px solid #b38bff;
+    height: 1.8rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    margin: 0.2rem 0 1.2rem 0;
+}
+
+.item-short small {
+    height: 1.8rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    margin: 0.6rem 0 1.2rem 0;
+    color: #b38bff;
+}
+
+.item label, .item-short label {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#botoes-selecao {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+/*#endregion Estilização ViewAddEdit*/

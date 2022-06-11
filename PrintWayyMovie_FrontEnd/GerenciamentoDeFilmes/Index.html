@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/toastr.min.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie - Filmes</title>
+</head>
+<body onload="loadAllFilmes()">
+    <nav class="menu-superior">
+        <ul>
+          <li>PrintWayy Movie</li>
+          <li onclick="sair()"><img src="../assets/img/exit.svg" alt="Sair-do-sistema">&nbsp;Sair</li>
+        </ul>
+    </nav>
+    <section id="menu-dados">
+        <nav>
+            <ul>
+              <li><img src="../assets/img/user.svg" alt="Logotipo-Usuario"><div id="typeUser">USER</div></li>
+              <a href="../ListaDeSalas/Index.html"><li><img src="../assets/img/sala.svg" alt="Logotipo-salas">Salas</li></a>
+              <li><img src="../assets/img/filme.svg" alt="Logotipo-filmes"><span>Filmes</span></li>
+              <a href="../ListaDeSessoes/Index.html"><li><img src="../assets/img/sessao.svg" alt="Logotipo-sessoes">Sessões</li></a>
+            </ul>
+        </nav>
+        <div class="dados-tabela">
+            
+            <nav class="menu-inferior">
+                <label><img src="../assets/img/arrow-menu.svg" alt="Sair-do-sistema">&nbsp;&nbsp;&nbsp;Filmes</label>
+                <label>Passe o mouse sobre&nbsp;<i>Imagem</i>&nbsp;ou&nbsp;<i>Descrição</i>&nbsp;para abrir a aba esquerda de visualização.</label>
+                <a class="button" id="buttonAdd" href="./ViewAddEdit.html">Adicionar Filme</a>
+            </nav>
+            <section id="imagemFilme" style="display: none;">
+                <img src="" id="imagemFilmeDiv" alt="Imagem-do-filme">
+            </section>
+
+            <section id="descricaoFilme" style="display: none;">
+                <p id="descricaoFilmeDiv"></p>
+            </section>
+
+            <table>
+                <thead>
+                <tr>
+                    <th>Ações</th>
+                    <th>Imagem</th>
+                    <th>Título</th>
+                    <th>Descrição</th>
+                    <th>Duração</th>
+                </tr>
+                </thead>
+                <tbody id="bodyTable">
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- JS -->
+    <script src="./Index.js"></script>
+    <script src="../assets/js/loader.js"></script>
+    <script src="../assets/js/axios.js"></script>
+    <script src="../assets/js/jquery-3.6.0.js"></script>
+    <script src="../assets/js/toastr.min.js"></script>
+    
+</body>
+</html>

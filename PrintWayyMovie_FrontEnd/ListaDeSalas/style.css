@@ -1,0 +1,88 @@
+.menu-superior ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 4rem;
+    background-color: #5fa2d8;
+    color: #FFF;
+    box-shadow: 0px 5px 5px gray;
+    margin-bottom: 0.5rem;
+    padding: 0 2rem 0 2rem;
+    font-size: 1.2rem;
+}
+
+.menu-superior ul li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu-inferior {
+    font-size: 18px;
+    height: 3rem;
+    font-weight: 700;
+}
+
+.menu-inferior label{
+    display: flex;
+    align-items: center;
+}
+
+#menu-dados {
+    display: flex;
+    color: #4169E1;
+    padding: 1rem;
+}
+
+#menu-dados nav{
+    display: flex;
+    width: 18vw;
+    align-content: center;
+    justify-content: flex-start;
+    border-right-color: #5fa2d8;
+}
+
+#menu-dados nav ul{
+    display: flex;
+    flex-direction: column;
+}
+
+#menu-dados nav ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+#menu-dados nav ul li img{
+    margin-right: 1.4rem;
+}
+
+#menu-dados span {
+    text-decoration: underline;
+}
+
+.dados-tabela {
+    display: flex;
+    flex-direction: column;
+}
+
+.dados-tabela table {
+    background-color: #f3f3f3;
+    width: 82vw;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+table {
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #5fa2d8;
+    line-height: 2rem;
+}

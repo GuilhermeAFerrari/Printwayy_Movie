@@ -1,11 +1,9 @@
 # PrintWayyMovie
 ### Aplicação para gerenciamento de um cinema
-![Build Status](https://travis-ci.org/joemccann/dillinger.svg)
-TROCAR SHIELDS
 
 Um dos objetivos do projeto é ser necessário o minimo de configuração para a execução.
-No Back-end foi utilizado Minimals APIs, SQLite e Entity Framework, com regions para organização das rotas e as validações dos campos.
-No Front-end o uso do axios, reduzindo a complexidade do codigo, aumentando a escalabilidade, mantendo uso apenas dos recursos essenciais e as boas práticas.
+No Back-end foi utilizado ASP.NET Minimal APIs, SQLite e Entity Framework, com regions para organização das rotas e as validações dos campos.
+No Front-end o uso do cliente HTTP Axios, reduzindo a complexidade do codigo, aumentando a escalabilidade, mantendo uso apenas dos recursos essenciais e as boas práticas.
 
 ## Conteúdo do repositório
 - Printwayy_BancoDeDados: Contendo a modelagem do banco de dados
@@ -14,6 +12,7 @@ No Front-end o uso do axios, reduzindo a complexidade do codigo, aumentando a es
 
 ## 🛠 Tecnologias e Frameworks
 #### Back-end
+- [BRModelo](https://www.brmodeloweb.com/lang/pt-br/index.html)
 - [.NET 6.0](https://visualstudio.microsoft.com/pt-br/vs/community/)
 - [SQLite](https://www.sqlite.org/index.html)
 - Swashbuckle.AspNetCore
@@ -68,5 +67,5 @@ $ git clone <https://github.com/tgmarinho/nlw1>
 - Gerenciamento de Sessões
 
 ## 😎 Autor
-Guilherme Ferrari - guile.ferrari@hotmail.com
-[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/guilherme-antonio-ferrari/)
+- Guilherme Ferrari - guile.ferrari@hotmail.com
+- [<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/guilherme-antonio-ferrari/)

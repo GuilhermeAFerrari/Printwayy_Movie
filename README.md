@@ -16,7 +16,7 @@
 ### Aplicação para gerenciamento de um cinema
 
 Um dos objetivos do projeto é ser necessário o minimo de configuração para a execução.
-No Back-end foi utilizado ASP.NET Minimal APIs, SQLite e Entity Framework, com regions para organização das rotas e as validações dos campos.
+No Back-end foi utilizado ASP.NET Minimal APIs, SQLite e Entity Framework e Xunit.Net, com regions para organização das rotas e as validações dos campos.
 No Front-end o uso do cliente HTTP Axios, reduzindo a complexidade do codigo, aumentando a escalabilidade, mantendo uso apenas dos recursos essenciais e as boas práticas.
 
 ## Conteúdo do repositório

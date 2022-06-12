@@ -62,7 +62,7 @@ function loadDescricao(id) {
 function carregarEditarFilme(id) {
   var levelUser = sessionStorage.getItem('levelUser');
   if(levelUser != 'gerente') {
-    alert("Necessário nível de login como Gerente para essa ação")
+    toastr.error("Necessário nível de login como Gerente para essa ação")
   }
   else {
     window.location.href = `./ViewAddEdit.html?id=${id}`;
@@ -130,7 +130,7 @@ function editarFilme(id) {
 function deleteFilme(id) {
   var levelUser = sessionStorage.getItem('levelUser');
   if(levelUser != 'gerente') {
-    alert("Necessário nível de login como Gerente para essa ação")
+    toastr.error("Necessário nível de login como Gerente para essa ação")
   }
   else {
     var confirmacao = confirm("Deseja realmente remover?");

@@ -27,11 +27,9 @@ No Front-end o uso do cliente HTTP Axios, reduzindo a complexidade do codigo, au
 ## 🛠 Tecnologias e Frameworks
 #### Back-end
 - [BRModelo](https://www.brmodeloweb.com/lang/pt-br/index.html)
-- [.NET 6.0](https://visualstudio.microsoft.com/pt-br/vs/community/)
+- [.NET 6](https://visualstudio.microsoft.com/pt-br/vs/community/)
 - [SQLite](https://www.sqlite.org/index.html)
-- Swashbuckle.AspNetCore
-- Microsoft.EntityFrameworkCore
-- Microsoft.EntityFrameworkCore.Sqlite
+- [XUnit.Net](https://xunit.net/)
 #### Front-end
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
@@ -72,7 +70,12 @@ $ git clone <https://github.com/GuilhermeAFerrari/Printwayy_Movie.git>
 ```
 ### 🎲 Executando os Testes unitários (Server)
 ```bash
+# Clone este repositório ou faça o download .zip e extraia os arquivos
+$ git clone <https://github.com/GuilhermeAFerrari/Printwayy_Movie.git>
 
+# Acesse a pasta PrintwayyMovie_Backend do projeto e abra o arquvio PrintwayyMovie_API.sln com o Visual Studio
+
+# Acesse a guia Teste e clique em Executar todos os testes
 ```
 
 ## Features
@@ -81,5 +84,6 @@ $ git clone <https://github.com/GuilhermeAFerrari/Printwayy_Movie.git>
 - Gerenciamento de Sessões
 
 ## 😎 Autor
-- Guilherme Ferrari - guile.ferrari@hotmail.com
+- Guilherme Ferrari
+- E-mail: guile.ferrari@hotmail.com
 - [<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/guilherme-antonio-ferrari/)

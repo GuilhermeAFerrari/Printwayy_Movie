@@ -45,7 +45,7 @@ function loadAllSessoes() {
 function deleteSessao(id) {
     var levelUser = sessionStorage.getItem('levelUser');
     if(levelUser != 'gerente') {
-      alert("Necessário nível de login como Gerente para essa ação")
+      toastr.error("Necessário nível de login como Gerente para essa ação")
     }
     else {
         var confirmacao = confirm("Deseja realmente remover?");

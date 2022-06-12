@@ -13,6 +13,8 @@
     <a href="#-autor">Autor</a>
 </p>
 
+![](./PrintWayyMovie_FrontEnd/assets/img/PrintWayyMovie.gif)
+
 ### Aplicação para gerenciamento de um cinema
 
 Um dos objetivos do projeto é ser necessário o minimo de configuração para a execução.

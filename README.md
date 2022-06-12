@@ -1,15 +1,16 @@
 # PrintWayyMovie
 
 <p align="center">
-    <a href="conteúdo-do-repositório">Conteúdo do repositório</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="aplicação-para-gerenciamento-de-um-cinema">Aplicação</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#conteúdo-do-repositório">Conteúdo</a>&nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="#-tecnologias-e-frameworks">Tecnologias e Frameworks</a>&nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="#pré-requisitos">Pré-requisitos</a>&nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="#executando-a-aplicação">Executando a aplicação</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="#-executando-o-back-end-server">Executando o Back-end</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="#-executando-o-front-end-client">Executando o Front-end</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="#-executando-os-testes-unitários-server">Executando Teste unitários</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#-executando-o-back-end-server">Back-end</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#-executando-o-front-end-client">Front-end</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#-executando-os-testes-unitários-server">Testes unitários</a>&nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="#features">Features</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="#-autor">Autor</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#-autor">Autor</a>
 </p>
 
 ### Aplicação para gerenciamento de um cinema

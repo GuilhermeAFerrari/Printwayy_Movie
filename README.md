@@ -1,7 +1,7 @@
 # PrintWayyMovie
 
 <p align="center">
-    <a href="aplicação-para-gerenciamento-de-um-cinema">Aplicação</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#aplicação-para-gerenciamento-de-um-cinema">Aplicação</a>&nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="#conteúdo-do-repositório">Conteúdo</a>&nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="#-tecnologias-e-frameworks">Tecnologias e Frameworks</a>&nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="#pré-requisitos">Pré-requisitos</a>&nbsp;&nbsp;|&nbsp;&nbsp;

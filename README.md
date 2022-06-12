@@ -1,11 +1,15 @@
 # PrintWayyMovie
 
 <p align="center">
-  <a href="#-tecnologias-e-frameworks">Tecnologias e Frameworks</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-pré-requisitos">Pré-requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-executando-a-aplicação">Executando a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-eatures">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-autor">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="conteúdo-do-repositório">Conteúdo do repositório</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#-tecnologias-e-frameworks">Tecnologias e Frameworks</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#pré-requisitos">Pré-requisitos</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#executando-a-aplicação">Executando a aplicação</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#-executando-o-back-end-server">Executando o Back-end</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#-executando-o-front-end-client">Executando o Front-end</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#-executando-os-testes-unitários-server">Executando Teste unitários</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#features">Features</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="#-autor">Autor</a>&nbsp;&nbsp;|&nbsp;&nbsp;
 </p>
 
 ### Aplicação para gerenciamento de um cinema
@@ -40,7 +44,7 @@ No Front-end o uso do cliente HTTP Axios, reduzindo a complexidade do codigo, au
 - Opcionalmente você pode usar o editor de código Visual Studio Code - [VSCode](https://code.visualstudio.com/)
 
 ## Executando a aplicação
-### 🎲 Rodando o Back End (Server)
+### 🎲 Executando o Back End (Server)
 ```bash
 # Clone este repositório ou faça o download .zip e extraia os arquivos
 $ git clone <https://github.com/GuilhermeAFerrari/Printwayy_Movie.git>
@@ -53,7 +57,7 @@ $ git clone <https://github.com/GuilhermeAFerrari/Printwayy_Movie.git>
 
 # O servidor iniciará o banco de dados SQLite com a carga inicial de Salas e todas entidades presente na modelagem do banco.
 ```
-### 🎲 Rodando o Front End (Client)
+### 🎲 Executando o Front End (Client)
 
 ```bash
 # Clone este repositório ou faça o download .zip e extraia os arquivos
@@ -65,7 +69,7 @@ $ git clone <https://github.com/GuilhermeAFerrari/Printwayy_Movie.git>
 
 # Para realizar o login no sistema utilize as credenciais: gerencia@printwayy.com | gerencia (Com acesso a todas operações) ou admin@printwayy.com | admin (Com acesso apenas de visualização das telas).
 ```
-### 🎲 Rodando os Testes unitários (Server)
+### 🎲 Executando os Testes unitários (Server)
 ```bash
 
 ```

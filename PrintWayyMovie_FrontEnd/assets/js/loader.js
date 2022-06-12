@@ -11,9 +11,8 @@ function getSession() {
         document.getElementById("typeUser").innerHTML = levelUser.toUpperCase();
     }
     else {
-        var buttonAdd = document.getElementById("buttonAdd");
-        if (buttonAdd != null)
-            buttonAdd.style.display = "none";
+        if (document.getElementById("buttonAdd") != null) 
+            document.getElementById("buttonAdd").style.display = "none";
         
     }
 }

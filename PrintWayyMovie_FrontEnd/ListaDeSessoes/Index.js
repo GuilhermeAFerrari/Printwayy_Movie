@@ -43,16 +43,22 @@ function loadAllSessoes() {
 }
 
 function deleteSessao(id) {
-    var confirmacao = confirm("Deseja realmente remover?");
-    if(confirmacao == true) {
-        axios.delete(`https://localhost:7098/delete-sessao/${id}`)
-            .then(() => {
-                toastr.success('Sessão removida com sucesso');
-                loadAllSessoes();
-            }, (error) => {
-                toastr.error(error.response.data);
-            }
-        );
+    var levelUser = sessionStorage.getItem('levelUser');
+    if(levelUser != 'gerente') {
+      alert("Necessário nível de login como Gerente para essa ação")
+    }
+    else {
+        var confirmacao = confirm("Deseja realmente remover?");
+        if(confirmacao == true) {
+            axios.delete(`https://localhost:7098/delete-sessao/${id}`)
+                .then(() => {
+                    toastr.success('Sessão removida com sucesso');
+                    loadAllSessoes();
+                }, (error) => {
+                    toastr.error(error.response.data);
+                }
+            );
+        }
     }
 }
 

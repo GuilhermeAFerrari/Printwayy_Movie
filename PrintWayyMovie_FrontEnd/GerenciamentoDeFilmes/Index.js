@@ -15,9 +15,7 @@ function loadAllFilmes() {
                                                 <img src="../assets/img/pencil.svg">
                                             </a>
                                         </td>
-                                        <td onmouseenter="loadImagem(${res.data[x].id})"
-                                            onmouseout="hideDivs()">
-                                            <img src="../assets/img/image-filme.svg">
+                                        <td class="img-filme" onmouseenter="loadImagem(${res.data[x].id})" onmouseout="hideDivs()">
                                         </td>
                                         <td>
                                             ${res.data[x].cl_Titulo}
@@ -62,7 +60,13 @@ function loadDescricao(id) {
 }
 
 function carregarEditarFilme(id) {
+  var levelUser = sessionStorage.getItem('levelUser');
+  if(levelUser != 'gerente') {
+    alert("Necessário nível de login como Gerente para essa ação")
+  }
+  else {
     window.location.href = `./ViewAddEdit.html?id=${id}`;
+  }
 }
 
 function loadFilme(id) {
@@ -124,16 +128,22 @@ function editarFilme(id) {
 }
 
 function deleteFilme(id) {
+  var levelUser = sessionStorage.getItem('levelUser');
+  if(levelUser != 'gerente') {
+    alert("Necessário nível de login como Gerente para essa ação")
+  }
+  else {
     var confirmacao = confirm("Deseja realmente remover?");
     if(confirmacao == true) {
         axios.delete(`https://localhost:7098/delete-filme/${id}`)
-            .then((res) => {
-                toastr.success(`Filme ${res.data.cl_Titulo} removido com sucesso`);
-                loadAllFilmes();
-            }, (error) => {
-                toastr.error(error.response.data);
-            }
+          .then((res) => {
+              toastr.success(`Filme ${res.data.cl_Titulo} removido com sucesso`);
+              loadAllFilmes();
+          }, (error) => {
+              toastr.error(error.response.data);
+          }
         );
+      }
     }
 }
 

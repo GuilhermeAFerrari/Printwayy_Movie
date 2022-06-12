@@ -177,6 +177,12 @@ td img {
     overflow: hidden; 
 }
 
+.img-filme {
+    background-image: url("../assets/img/image-filme.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /*#region Estilização ViewAddEdit*/
 #content-add-edit {
     display: flex;

@@ -34,7 +34,7 @@ No Front-end o uso do cliente HTTP Axios, reduzindo a complexidade do codigo, au
 ### 🎲 Rodando o Back End (Server)
 ```bash
 # Clone este repositório ou faça o download .zip e extraia os arquivos
-$ git clone <https://github.com/tgmarinho/nlw1>
+$ git clone <https://github.com/GuilhermeAFerrari/Printwayy_Movie.git>
 
 # Acesse a pasta PrintwayyMovie_Backend do projeto e abra o arquvio PrintwayyMovie_API.sln com o Visual Studio
 
@@ -48,7 +48,7 @@ $ git clone <https://github.com/tgmarinho/nlw1>
 
 ```bash
 # Clone este repositório ou faça o download .zip e extraia os arquivos
-$ git clone <https://github.com/tgmarinho/nlw1>
+$ git clone <https://github.com/GuilhermeAFerrari/Printwayy_Movie.git>
 
 # Acesse a pasta PrintwayyMovie_Frontend do projeto e execute o arquvio index.html presente na raiz da pasta
 

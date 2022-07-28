@@ -54,7 +54,7 @@ $ git clone <https://github.com/GuilhermeAFerrari/Printwayy_Movie.git>
 
 # Execute a aplicação (CRTL+F5)
 
-# O servidor inciará naa portaa: 7098 para HTTPS e 5098 para HTTP, ambas configurações sem econtram no arquivo "Properties/launchSettings.json"
+# O servidor inciará naa porta: 7098 para HTTPS e 5098 para HTTP, ambas configurações sem econtram no arquivo "Properties/launchSettings.json"
 
 # O servidor iniciará o banco de dados SQLite com a carga inicial de Salas e todas entidades presente na modelagem do banco.
 ```
